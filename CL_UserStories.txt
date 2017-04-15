@@ -1,0 +1,29 @@
+ClientLite 
+I. General requirements 
+A. Name of app 
+ClientLite 
+B. Users 
+Massage therapists and other health care professionals  
+C. Background 
+Massage therapists and some other health care professionals may not have need for a "proper" client database but need to produce annual reports to health care authorities. 
+Since many are self-employed and cut costs by not investing in software, they need to either manually gather the information or keep a spreadsheet like i myself used to do. 
+With the aid of the app one could look up this information quickly for reports. 
+II. User stories for user "massage therapist" 
+1. Entering a new client 
+A new client comes for the first time and they are given a medical history form/basic information form to fill in. Based on the information they have filled in, the user will 
+create a new client in the system. Information will include first and last name, telephone number. Id number will serve as unique identifier. 
+2. Creating a new treatment session 
+The user will enter a treatment session for each time the client comes in for a treatment. The user searches for the id of the client and uses it as an identifier together with 
+the treatment date. The location of the treatment will be entered. 
+3. Creating report for number of clients 
+The user needs to produce a report for the number of clients per year per location. They do so  by querying the number through the app.  
+4. Creating report for number of treatment sessions 
+The user needs to produce a report for the number of all treatment sessions per year per location. They do so by querying the number through the app. 
+5. Searching for specific info on client 
+The user has taken ill and must search for the phone number of the client. Rather than go to the manual records, they do a search using the app. 
+6. Updating info on the client 
+The client has changed their number or their name. The user then updates the info in the database. 
+7. Deleting a client 
+After providing the annual reports, the user wants to remove some of the clients they know have moved from the area or passed away. The user then deletes a client from the database. 
+8. Deleting treatments 
+After submitting yearly reports, the user wants to reset the treatments. They do so by deleting the treatments. 
