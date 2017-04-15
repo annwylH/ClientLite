@@ -4,4 +4,4 @@ Description
 Learning project for a lightweight client database for the use of e.g. massage therapists. Background and user stories can be found in the CL_UserStories.txt file.
 
 Installation
-Set up your MySQL server. Run the 
+Set up your MySQL server. Run the createClientLiteDatabase.sql query in e.g. MySQL Workbench to create the databse and insert some data into the tables. Download the code files. 
