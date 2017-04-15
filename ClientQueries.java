@@ -13,7 +13,7 @@ public class ClientQueries {
 	// variables for connecting to database
 		private static final String URL = "jdbc:mysql://localhost:3306/clientlite?verifyServerCertificate=false&useSSL=true";
 		private static final String USERNAME = "root";
-		private static final String PASSWORD = "KrPl1o7q69";
+		private static final String PASSWORD = "";//insert your password here
 		
 		private Connection connection = null;
 		private PreparedStatement insertClient = null;
