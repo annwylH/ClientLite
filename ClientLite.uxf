@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>400</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>_Client: Class_
+--
+-fname: String
+-lname: String
+-telnum: String
+-clientId: int
+-----------------------------------------------------------------------------------
++Client(String fname, String lname, String telnum, int clientId)
++getFname(): String
++getLname(): String
++getTelnum(): String
++getClientId(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>230</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_Treatment: Class_
+--
+-clientId: int
+----------------------------------
++Treatment(int clientId)
++getClientId(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
