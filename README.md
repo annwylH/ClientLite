@@ -10,5 +10,10 @@ Usage
 In the main GUI you will find a table for query results. The different functions are behind buttons. 
 Add client allows you to add a new client to the database with a first name, last name and telephone number. Client id will be auto-incremented.
 Add session allows you to adda new treatment session to the database with a location, date and client id.
-Find client allows you to search for a client in the database using first name and last name and will display the info in a table. Use this to find 
+Find client allows you to search for a client in the database using first name and last name and will display the info in a table. Use this to find the client id for adding a new treatment.
+Edit number allows you to change a client's phone number.
+Edit name allows you to change the last name of a client.
+Get clients/location allows you to get the number of different, distinct clients per location.
+Get sessions/location allows you to get the number of treatments per location.
+Reset treatments allows you to delete all treatments at the end of the year.
 
