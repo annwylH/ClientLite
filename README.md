@@ -1,6 +1,7 @@
 # ClientLite
 
 Description
-Learning project for a lightweight client database for the use of e.g. massage therapists. Background and user stories cna be found in the 
+Learning project for a lightweight client database for the use of e.g. massage therapists. Background and user stories can be found in the CL_UserStories.txt file.
 
-I
+Installation
+Set up your MySQL server. Run the 
